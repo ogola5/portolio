@@ -1,27 +1,34 @@
 /* components/styles/AboutMe.css */
 
 .about-me-section {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #f4f7fa; /* Light blue background */
   border-radius: 15px;
-  padding: 20px;
-  margin-top: 20px;
+  padding: 40px;
+  margin-top: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.about-me-section:hover {
-  background-color: rgba(245, 245, 255, 0.9);
+.image-col .profile-image {
+  max-width: 100%;
+  border: 5px solid #eef2f7; /* Light border for the image */
 }
 
-h2 {
-  color: #5b8c5a; /* Green shade */
-  margin-bottom: 15px;
+.text-col h2 {
+  color: #2a6496; /* Darker blue for headers */
+  margin-bottom: 20px;
+  font-size: 2rem;
 }
 
-p {
-  color: #333; /* Dark text for readability */
-  font-size: 1rem;
-  line-height: 1.6;
+.text-col p {
+  color: #4a4a4a; /* Dark grey for better readability */
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.text-col h3 {
+  color: #3a7d44; /* Soft green for sub-headers */
+  margin-top: 30px;
 }
 
 ul {
@@ -30,20 +37,22 @@ ul {
 }
 
 ul li {
-  background-color: #a044ff; /* Purple shade */
+  background-color: #34a853; /* Google's green */
   color: white;
-  margin: 5px 0;
-  padding: 5px 10px;
+  margin: 10px 0;
+  padding: 10px;
   border-radius: 5px;
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {
   .about-me-section {
-    margin-top: 10px;
+    padding: 20px;
+    margin-top: 20px;
   }
 
-  h2 {
-    font-size: 1.25rem;
+  .text-col h2 {
+    font-size: 1.75rem; /* Slightly smaller font for smaller screens */
   }
 
   ul li {
@@ -51,4 +60,4 @@ ul li {
   }
 }
 
-/* Additional media queries for responsiveness */
+/* Further media queries and adjustments as needed for smaller devices */

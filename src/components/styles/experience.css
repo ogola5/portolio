@@ -1,22 +1,30 @@
 /* components/styles/Experience.css */
 
 .experience-section {
-  background-color: #f7f7fa; /* Light background color */
+  background-color: transparent; /* Transparent background */
   padding: 40px 0; /* Padding around the section for spacing */
+  background-image: url('/public/images/experience.png'); /* Technical background image */
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .job-entry {
-  background-color: #fff; /* White background for each job entry */
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white for readability */
   padding: 20px;
   margin-bottom: 20px;
-  border-left: 5px solid #00b4d8; /* Theme color for the side border */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-left: 5px solid #007bff; /* Theme color for the side border */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.job-entry:hover {
+  transform: translateY(-5px); /* Slight raise effect on hover */
 }
 
 .job-entry h3 {
-  color: #003566; /* Dark blue color for the job title */
-  margin-bottom: 10px; /* Spacing below the title */
+  color: #0056b3; /* Darker blue color for the job title */
+  margin-bottom: 15px; /* Spacing below the title */
 }
 
 .job-entry .text-muted {
@@ -35,6 +43,9 @@
 
 /* Media queries for responsiveness */
 @media (max-width: 992px) {
+  .experience-section {
+    padding: 30px 10px;
+  }
   .job-entry {
     padding: 15px;
     margin-bottom: 15px;
@@ -51,7 +62,7 @@
   .job-entry {
     padding: 10px;
     margin-bottom: 10px;
-    border-left: 3px solid #00b4d8; /* Thinner border for smaller screens */
+    border-left: 3px solid #007bff; /* Thinner border for smaller screens */
   }
 }
 

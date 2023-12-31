@@ -8,7 +8,7 @@ const certificates = [
     issuer: "Technical University of Mombasa",
     date: "2023",
     description: "Bachelor of Science in Electrical and Electronics Engineering",
-    logo: "path-to-technical-university-logo.jpg", // replace with your image path
+    logo: "/images/tum.png", // replace with your image path
     link: "https://drive.google.com/file/d/1TTP6S_1JYh0WEWaHMdi3UneiV_c4_506/view?usp=sharing"
   },
   {
@@ -16,7 +16,7 @@ const certificates = [
     issuer: "Dacade",
     date: "Date of Completion",
     description: "Completed the TypeScript Smart Contract 101 course on Dacade.",
-    logo: "path-to-dacade-logo.jpg", // replace with your image path
+    logo: "/images/dacade", // replace with your image path
     link: "https://drive.google.com/file/d/1VqeMqpBXiUPgiu6elZTMuZcoz_iFD0Ir/view?usp=sharing" // replace with a link to your certificate
   },
   {
@@ -24,7 +24,7 @@ const certificates = [
     issuer: "Dacade",
     date: "2023",
     description: "Completed the AI Web App Development 101 course on Dacade.",
-    logo: "path-to-dacade-logo.jpg", // replace with your image path
+    logo: "/images/dacade", // replace with your image path
     link: "https://drive.google.com/file/d/1OLKg1bV4vIpR3D7ym61KkN9105loTK8p/view?usp=sharing" // replace with a link to your certificate
   },
   {
@@ -32,7 +32,7 @@ const certificates = [
     issuer: "Dacade",
     date: "2023",
     description: "Completed the Rust Smart Contract 101 course on Dacade.",
-    logo: "path-to-dacade-logo.jpg", // replace with your image path
+    logo: "/images/dacade", // replace with your image path
     link: "https://drive.google.com/file/d/1zuWxlMMjj5gSBrJ11-_d8teVybKrXrUh/view?usp=sharing" // replace with a link to your certificate
   },
   // ... Add more certificates as needed
