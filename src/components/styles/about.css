@@ -1,0 +1,54 @@
+/* components/styles/AboutMe.css */
+
+.about-me-section {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.about-me-section:hover {
+  background-color: rgba(245, 245, 255, 0.9);
+}
+
+h2 {
+  color: #5b8c5a; /* Green shade */
+  margin-bottom: 15px;
+}
+
+p {
+  color: #333; /* Dark text for readability */
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #a044ff; /* Purple shade */
+  color: white;
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .about-me-section {
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  ul li {
+    font-size: 0.9rem;
+  }
+}
+
+/* Additional media queries for responsiveness */

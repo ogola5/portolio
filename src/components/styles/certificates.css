@@ -1,0 +1,62 @@
+/* components/styles/Certificates.css */
+
+/* Overall styling for the certifications section */
+.certificates-section {
+  padding: 20px;
+  background-color: #f4f4f9; /* Light shade for the background */
+  min-height: 100vh; /* Full height */
+}
+
+/* Styling for each certification card */
+.card {
+  margin-bottom: 30px;
+  border-radius: 15px;
+  overflow: hidden; /* Ensure that children respect border-radius */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+/* Image styling */
+.card-img-top {
+  height: 120px; /* Fixed height for consistency */
+  object-fit: cover; /* Cover the area without stretching */
+}
+
+/* Card body styling */
+.card-body {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  padding: 15px;
+}
+
+.card-title {
+  color: #3a3b3c; /* Dark color for text */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #6c757d; /* Subtle color for the description text */
+}
+
+.card-link {
+  color: #007bff; /* Theme blue for links */
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsiveness */
+@media (max-width: 767px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Additional media query adjustments as needed */

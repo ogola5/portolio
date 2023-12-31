@@ -1,0 +1,89 @@
+/* components/styles/Footer.css */
+
+/* Base Footer Styles */
+footer {
+  background-color: #2c3e50; /* Dark shade for footer background */
+  color: #ffffff; /* White text color for contrast */
+  padding: 20px 0; /* Padding around the footer content */
+}
+
+footer .container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .border-top {
+  border-top: 1px solid #4b6584; /* Slightly lighter border color for top border */
+}
+
+/* Footer Link Styles */
+footer a {
+  color: #ffffff; /* White text color for links */
+  margin: 0 10px; /* Spacing between icons */
+  transition: color 0.3s ease; /* Transition for hover effect */
+  text-decoration: none; /* Removes underline from links */
+}
+
+footer a:hover {
+  color: #10ac84; /* Theme color for icon hover state */
+}
+
+footer .fa {
+  font-size: 1.5em; /* Larger size for icons */
+}
+
+/* Icon and Label Container */
+.icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%; /* Adjust width as needed */
+  align-items: center;
+}
+
+.icon-container a {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container span {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+
+/* Copyright Text Styles */
+.copy-right {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+/* Padding Adjustments */
+footer .p-0 {
+  padding: 0 !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  footer .container-fluid {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icon-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer a,
+  .icon-container a {
+    margin: 5px 0; /* Adjusted margin for vertical layout */
+  }
+
+  footer .col {
+    margin-bottom: 10px; /* Spacing between rows */
+  }
+}
+
+/* Additional media query adjustments as needed */

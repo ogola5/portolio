@@ -1,0 +1,60 @@
+/* styles/Home.css */
+
+.home-section {
+  position: relative;
+  padding: 0;
+}
+
+.home-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 50%; /* Adjust the width as necessary */
+  overflow: hidden;
+}
+
+.home-image .img-fluid {
+  height: 100%;
+  object-fit: cover;
+  /* Make sure to remove any JavaScript code from your CSS */
+}
+
+.text-box {
+  background: #fff;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-left: 50%; /* Adjust the margin to not overlap the image */
+  height: 100%; /* Optional: if you want the text box to be the same height as the image */
+}
+
+.content {
+  max-width: 500px; /* Or the max-width you prefer */
+  margin-right: auto;
+  padding: 2rem;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative; /* Ensure the footer is below the content */
+  clear: both;
+}
+
+@media (max-width: 768px) {
+  .home-image {
+    position: static;
+    width: 100%;
+  }
+
+  .text-box {
+    margin-left: 0;
+  }
+
+  .content {
+    max-width: 100%;
+    padding: 1rem;
+  }
+}
