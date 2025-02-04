@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
-import { FaCode, FaDatabase, FaMobileAlt, FaCloud, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaCode, FaDatabase, FaMobileAlt, FaEnvelope, FaWhatsapp, FaCloud, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import '../styles/home.css';
 
 const Home = () => {
@@ -45,16 +45,23 @@ const Home = () => {
 
       {/* Social Links Section */}
       <div className="social-links">
-        <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
-          <FaGithub />
-        </a>
-        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin />
-        </a>
-        <a href="https://twitter.com/your-profile" target="_blank" rel="noopener noreferrer">
-          <FaTwitter />
-        </a>
-      </div>
+          <a href="https://github.com/ogola5" target="_blank" rel="noopener noreferrer">
+            <FaGithub />
+          </a>
+          <a href="https://www.linkedin.com/in/ogola-evance-51a30a1bb" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin />
+          </a>
+          <a href="https://twitter.com/ogolaevance5" target="_blank" rel="noopener noreferrer">
+            <FaTwitter />
+          </a>
+          <a href="mailto:ogolaevance5@gmail.com" target="_blank" rel="noopener noreferrer">
+            <FaEnvelope />
+          </a>
+          <a href="https://wa.me/+254799457182" target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp />
+          </a>
+        </div>
+
     </div>
   );
 }
